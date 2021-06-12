@@ -1,0 +1,209 @@
+html{
+    height: 100%;
+    font-family: sans-serif;
+    display: block;
+}
+
+main{
+    font-size:0.83em;
+    background-color:#868684 ;
+     margin-left: auto;
+     margin-right: auto;
+     color: #777;
+ }
+ body{
+     background-color: grey;
+ }
+
+#header{
+    background: #1d1d1d;
+    height: 240px;
+}
+#logo{
+    width: 825px;
+    height: 168px;
+    position: relative;
+    margin-left: auto;
+   margin-right: auto;
+    
+}
+
+#logo #logotext{
+    position: absolute;
+    top: 20px;
+  }
+
+#logotext h1 {
+    padding: 22px 0 0 0;
+    color: #FFF;
+    letter-spacing: 0.1em;
+}
+#logotext h1 .logo_colour {
+    color: #1293EE;
+    letter-spacing: 0.1em;}
+
+#logotext h2 {
+
+    font-size: 100%;
+    padding: 4px 0 0 0;
+    color: #DDD;
+   
+    
+}
+#menubar {
+    width: 900px;
+    height: 72px;
+    background: #1293EE;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover {
+    color: #FFF;
+    background: #0D66A5;}
+#menu, #menu li{
+
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+   
+}
+ ul#menu li {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+   
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        
+          
+    }
+    ul#menu li.selected a{
+        color: #FFF;
+        background: #0D66A5;
+    }       
+    ul#menu li a {
+        letter-spacing: 0.1em;
+        font: normal 100% arial, sans-serif;
+        display: block;
+        float: left;
+        height: 37px;
+        padding: 29px 26px 6px 26px;
+        text-align: center;
+        color: #FFF;
+        text-transform: uppercase;
+    }
+
+    #site-content {
+        width: 837px;
+        overflow: hidden;
+        margin: 0 auto 0 auto;
+        padding: 20px 24px 20px 37px;
+        background: #FFF;
+    }    
+    #sidebar {
+        float: right;
+        width: 190px;
+        padding: 0 15px 20px 15px;}
+
+        h1, h2, h3, h4, h5, h6 {
+            font: normal 175%;
+            color: #43423F;
+            margin: 0 0 15px 0;
+            padding: 15px 0 5px 0;
+        }
+       
+        h3 {
+            display: block;
+            font-size: 1.17em;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;}  
+            h4 {
+                margin: 0;
+                padding: 0 0 5px 0;
+                font: normal 120% arial, sans-serif;
+                color: #1293EE;
+            
+                    display: block;
+                    margin-block-start: 1.33em;
+                    margin-block-end: 1.33em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+            }
+
+           
+            p {
+                padding: 0 0 20px 0;
+                line-height: 1.7em;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+}
+a{
+    outline: none;
+    text-decoration: underline;
+    color: #FD5BFF;
+}
+
+h5 {
+    font: italic 95% arial, sans-serif;
+    padding: 0 0 15px 0;
+    color: #000;
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#content {
+    text-align: left;
+    width: 595px;
+    padding: 0;
+}
+h1{
+    font: normal 50%;
+    color: #43423F;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    
+        display: block;
+        
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        
+}
+
+#footer {
+    width: 900px;
+    font: normal 100%  arial, sans-serif;
+    height: 33px;
+    padding: 24px 0 5px 0;
+    text-align: center;
+    background: #1293EE;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
